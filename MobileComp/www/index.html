@@ -64,7 +64,7 @@
         logToConsole("onDeviceReady: PhoneGap ready");
 		//Call getAuthCredentials to get the initial session credentials
         SalesforceOAuthPlugin.getAuthCredentials(salesforceSessionRefreshed, getAuthCredentialsError);
-
+        logToConsole("onDeviceReady: SalesforceOAuthPlugin ready");
         //register to receive notifications when autoRefreshOnForeground refreshes the sfdc session
         document.addEventListener("salesforceSessionRefresh",salesforceSessionRefreshed,false);
 
