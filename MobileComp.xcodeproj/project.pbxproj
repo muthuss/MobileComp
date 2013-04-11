@@ -492,6 +492,7 @@
 		84BF6A0D171567E600224816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andi Giri (Q6RZW4U73Z)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MobileComp/dependencies\"",
@@ -505,6 +506,7 @@
 					"\"$(SRCROOT)/MobileComp/dependencies/SBJson\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6F410C83-AF2C-4B84-A74F-5C31DCF6C923";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -512,6 +514,7 @@
 		84BF6A0E171567E600224816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andi Giri (Q6RZW4U73Z)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MobileComp/dependencies\"",
@@ -525,6 +528,7 @@
 					"\"$(SRCROOT)/MobileComp/dependencies/SBJson\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6F410C83-AF2C-4B84-A74F-5C31DCF6C923";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
