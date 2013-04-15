@@ -40,6 +40,8 @@
     <gap:splash src="res/screen/windows_phone_portrait.jpg"      width="480"  height="800"  gap:platform="winphone" />
     
     <gap:plugin name="ChildBrowser" /> <!-- latest release -->
+    <gap:plugin name="SalesforceOAuthPlugin" />
+    
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="http://api.phonegap.com/1.0/contacts"/>
     
